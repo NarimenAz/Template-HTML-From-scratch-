@@ -1,0 +1,175 @@
+/*
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}*/
+.card1{
+    padding: 10px 20px;
+    margin: 24px -20px;
+    box-shadow: none!important;
+    background-color: #E7E9EB;
+    border-radius: 5px;
+    margin: 20px;
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.16)!important;
+
+
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 30%;
+    transition: 0.1s;
+    margin: 20px;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    
+}
+.flex-container > div {
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px 20px;
+    margin: 24px -20px;
+    box-shadow: none!important;
+}
+p{
+    font-weight: 300;
+    color: rgb(85, 81, 81);
+}
+header
+{
+    background-color: rgb(30 28 28);;
+    position:fixed;
+    top:0%;
+    left:0%;
+    padding: 3px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    
+    
+}
+.logo
+{
+    text-decoration: none;
+    color: #ffff;
+}
+.stylee
+{
+    display: flex;
+    position:relative;
+}
+.stylee li
+{
+    list-style: none;
+
+}
+.stylee a
+{
+    text-decoration: none;
+    margin-left: 30px;
+   color:#ffff;
+}
+header .stylee li a:hover{
+    color: rgb(233, 219, 219);
+    border-bottom: 2px solid rgb(226, 216, 216);
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(255, 249, 249);
+    text-shadow: 1px 1px 1px rgb(12, 12, 12);
+    border-radius: 10px;
+    background-color: rgba(15, 44, 217);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgb(25, 4, 82);
+}
+
+
+    
+  
+
+
+.Hello
+{
+background: rgb(199, 195, 195) ;
+border: 2px solid rgb(157, 159, 160); /* l bordure ta3 l page */
+padding: 30px; /* l position ta3 l ktiba fast l cadre men l da5el */
+margin-top: 100px;  /*l position men l fog ta3 l cadre */
+border-radius: 10px; /* thal ta3 l cadre illi zidneh men l da5el */
+min-height: 200px;
+padding: 40px;
+}
+tr{
+    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+    
+
+}
+.btn{
+    
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 10px 18px;
+    color: black;
+}
+.box {
+    display: flex;
+  }
+.ws-btn{
+    background-color: rgb(49, 49, 219);
+    border-radius:5px ;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 10px 18px;
+    color: #ffff;
+
+}
+  .nouvelle {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(155, 148, 148);
+    text-shadow: 1px 1px 1px rgb(12, 12, 12);
+    border-radius: 10px;
+    background-color: rgb(231, 232, 240);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.nouvelle:hover {
+    background-color: rgb(242, 241, 247);
+}
